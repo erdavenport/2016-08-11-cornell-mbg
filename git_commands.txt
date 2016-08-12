@@ -1,0 +1,179 @@
+  498  nano .bashrc
+  499  echo Testing
+  500  clear
+  501  git
+  501  git
+  501  git
+  501  git
+  501  git
+  501  git
+  501  git
+  502  git config --global user.name "Emily Davenport"
+  503  git config --global user.email "erdavenport@uwalumni.com"
+  504  git config --global color.ui "auto"
+  505  git config --list
+  506  cd
+  507  mkdir planets
+  508  cd planets
+  509  pwd
+  510  git init
+  511  ls
+  512  ls -a
+  513  git status
+  514  nano mars.txt
+  515  ls
+  516  cat mars.txt 
+  517  git status
+  518  git add mars.txt 
+  519  git status
+  520  git commit -m "Start notes on Mars as base"
+  521  ls
+  522  nano mars.txt 
+  523  cat mars.txt 
+  524  git status
+  525  git add mars.txt 
+  526  git diff
+  527  git diff --staged
+  528  git commit -m "Add concerns about the effects of Mar's moons on Wolfman"
+  529  nano mars.txt 
+  530  cat mars.txt 
+  531  git diff
+  532  git commit -m "added notes about humidity"
+  533  git add mars.txt 
+  534  git status
+  535  git commit -m "added notes about humidity"
+  536  git status
+  537  cd
+  538  mkdir bio
+  539  cd bio
+  540  nano me.txt
+  541  cat me.txt 
+  542  git commit -m "made a bio"
+  543  git init
+  544  git add me.txt 
+  545  git commit -m "made a bio"
+  546  git status
+  547  ls
+  548  nano me.txt 
+  549  git diff
+  550  cd
+  551  cd planets/
+  552  pwd
+  553  git diff HEAD~1 mars.txt 
+  554  git diff HEAD~2 mars.txt 
+  555  git log
+  556  git diff 89b0be779ee12bfd0f4546dbe280ada82b71187f mars.txt 
+  557  git diff 89b0e7 mars.txt 
+  558  git diff 89b0e77 mars.txt 
+  559  git diff 89b0e779 mars.txt 
+  560  git diff 89b0be77 mars.txt 
+  561  nano mars.txt 
+  562  git status
+  563  git checkout HEAD mars.txt 
+  564  cat mars.txt 
+  565  history
+  566  clar
+  567  clear
+  568   akjdfha;
+  569  skjsdf;ihad
+  570  klajsdf;
+  571  clear
+  572  history
+  573  clear
+  574  pwd
+  575  touch a.dat b.dat c.dat 
+  576  ls
+  577  mkdir results
+  578  touch results/a.out results/b.out
+  579  ls
+  580  git status
+  581  nano .gitignore
+  582  cat .gitignore 
+  583  git status
+  584  git add .gitignore 
+  585  git commit -m "added gitignore file"
+  586  git status
+  587  git add a.dat
+  588  git status --ignored
+  589  git remote add origin https://github.com/erdavenport/planets.git
+  590  git remote -v
+  591  git push origin master
+  592  git pull origin master
+  593  cd /tmp
+  594  git clone https://github.com/erdavenport/planets.git
+  595  ls
+  596  cd planets/
+  597  pwd
+  598  ls
+  599  nano pluto.txt
+  600  cat pluto.txt 
+  601  git status
+  602  git add pluto.txt 
+  603  git commit -m "Some notes about Pluto"
+  604  git status
+  605  git push origin master
+  606  cd ~/planets/
+  607  ls
+  608  pwd
+  609  git pull origin master
+  610  ls
+  611  git log
+  612  cat mars.txt 
+  613  nano mars.txt 
+  614  cat mars.txt 
+  615  git add mars.txt 
+  616  git commit -m "adding a line in our home copy"
+  617  git push origin master
+  618  cd /tmp/planets/
+  619  nano mars.txt 
+  620  cat mars.txt 
+  621  git add mars.txt 
+  622  git commit -m "Adding a line in the temporary copy"
+  623  git push origin master
+  624  git pull origin master
+  625  nano mars.txt 
+  626  cat mars.txt 
+  627  git add mars.txt 
+  628  git status
+  629  git commit -m "Merging changes from github"
+  630  git status
+  631  git push origin master
+  632  cd ~/planets/
+  633  git pull origin master
+  634  cat mars.txt 
+  635  cd ..
+  636  cd bio/
+  637  git push origin master
+  638  git remote add origin https://github.com/erdavenport/bio.git
+  639  git push origin master
+  640  ls
+  641  nano me.txt 
+  642  git status
+  643  git add me.txt 
+  644  git commit -m "updated my bio"
+  645  git push origin master
+  646  ls
+  647  cd /tmp/
+  648  git clone https://github.com/erdavenport/bio.git
+  649  ls
+  650  cd bio
+  651  ls
+  652  touch monkey.txt
+  653  nano me.txt 
+  654  git add me.txt monkey.txt 
+  655  git commit -m "updated my bio"
+  656  git pull origin master
+  657  ls
+  658  git push origin master
+  659  cd ~/bio/
+  660  ls
+  661  nano me.txt 
+  662  git pull origin master
+  663  cat me.txt 
+  664  git add me.txt 
+  665  git commit -m "updated bio, again"
+  666  git pull origin master
+  667  nano me.txt 
+  668  nano .bashrc
+  669  cd
+  670  nano .bashrc 
